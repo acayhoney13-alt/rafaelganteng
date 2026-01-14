@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Rasyah Septilya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0f172a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #0f172a;
+        }
+
+        .about p {
+            line-height: 1.7;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #0f172a;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Rasyah Septilya</h1>
+        <p>Siswa SMAN 23</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p>
+            Saya adalah siswa SMAN 23 yang memiliki minat untuk belajar dan
+            mengembangkan kemampuan di bidang akademik dan non-akademik.
+            Saya senang mencoba hal baru, bertanggung jawab, dan terus
+            meningkatkan keterampilan diri.
+        </p>
+    </section>
+
+    <!-- PROJECT / KEGIATAN -->
+    <section>
+        <h2 class="section-title">Pengalaman & Kegiatan</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Kegiatan Sekolah</h3>
+                <p>Aktif mengikuti kegiatan akademik dan non-akademik di sekolah.</p>
+            </div>
+            <div class="card">
+                <h3>Kerja Kelompok</h3>
+                <p>Terbiasa bekerja sama dalam tim dan menyelesaikan tugas bersama.</p>
+            </div>
+            <div class="card">
+                <h3>Pengembangan Diri</h3>
+                <p>Terus belajar dan meningkatkan kemampuan untuk masa depan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Rasyah Septilya | Portofolio Pribadi
+    </footer>
+
+</body>
+</html>
